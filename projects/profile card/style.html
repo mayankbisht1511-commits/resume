@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Profile Card</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.profile-card{
+    width:360px;
+    background:#ffffff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+    text-align:center;
+    transition:.4s;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px);
+}
+
+.profile-card img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #2563eb;
+    margin-top:30px;
+}
+
+.profile-content{
+    padding:25px;
+}
+
+.profile-content h1{
+    color:#222;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-size:30px;
+}
+
+.role{
+    color:#2563eb;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.about-title{
+    font-size:22px;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.about{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.location{
+    font-size:17px;
+    color:#444;
+    margin-bottom:25px;
+}
+
+.button{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:12px 30px;
+    border-radius:30px;
+    font-size:17px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#1d4ed8;
+    transform:scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<article class="profile-card">
+
+    <img src="C:\Users\Mayank\OneDrive\Desktop\WhatsApp Image 2026-06-22 at 5.49.44 PM.jpeg" alt="Mayank Singh Bisht">
+
+    <section class="profile-content">
+
+        <h1>Mayank Singh Bisht</h1>
+
+        <p class="role">
+            Full Stack Engineer
+        </p>
+
+        <h2 class="about-title">
+            About
+        </h2>
+
+        <p class="about">
+            BCA Graduate and exploring Full Stack Development.
+            Passionate about building responsive websites,
+            learning modern web technologies, and creating
+            user-friendly applications.
+        </p>
+
+        <p class="location">
+            📍 Haldwani, Uttarakhand
+        </p>
+
+        <a href="mailto:mayankbisht1511@gmail.com" class="button">
+            Contact Me
+        </a>
+
+    </section>
+
+</article>
+
+</body>
+</html>
