@@ -3,6 +3,8 @@
 A clean, responsive, and semantic HTML resume website built using **HTML5 Semantic Elements** only. This project demonstrates the proper structure of a resume webpage without using `<div>` or `<span>` tags, making it an excellent example of semantic web development.
 
 ---
+Live view
+https://dainty-rolypoly-42c034.netlify.app/
 
 ## 📌 Features
 
