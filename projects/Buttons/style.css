@@ -1,0 +1,81 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:30px;
+    color:#333;
+}
+
+/* Common Button Style */
+.btn{
+    padding:12px 28px;
+    margin:10px;
+    font-size:16px;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+/* Solid Button */
+.solid{
+    background:#007bff;
+    color:white;
+}
+
+.solid:hover{
+    background:#0056b3;
+}
+
+/* Outline Button */
+.outline{
+    background:transparent;
+    color:#007bff;
+    border:2px solid #007bff;
+}
+
+.outline:hover{
+    background:#007bff;
+    color:white;
+}
+
+/* Pill Button */
+.pill{
+    background:#28a745;
+    color:white;
+    border-radius:50px;
+}
+
+.pill:hover{
+    transform:scale(1.1);
+    background:#218838;
+}
+
+/* Accent Button */
+.accent{
+    background:#ff5722;
+    color:white;
+    border-radius:8px;
+}
+
+.accent:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 15px rgba(0,0,0,0.3);
+}
